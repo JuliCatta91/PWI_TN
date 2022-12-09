@@ -38,21 +38,9 @@ img {
     height: 100vh;
 }
 
-ul {
-    width: 800px
-    height: 100px;
-    background-color: red;
-}
-
-li {
-    width: 50%; /*Li es hijo de ul, y si el padre vale 1000, li va a valer 500 xq es el 50 %*/
-    background-color: blue;
-    height: 25%;
-}
-
 div {
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 450px;
     background-image: url(./Perro.png);
 }
 
@@ -75,14 +63,10 @@ colores: predefinidos por css ROJO - VERDE - AZUL*/
 */
 
 
-/*
-border 3 valores: 
+/*border 3 valores: 
 el color, el grosor y el tipo de borde
 border: black 2px solid
 
-border-radius: curvar las puntas..
-*/
+border-radius: curvar las puntas..*/
 
-/* height: 50vh; view height -> esto representa un 50% de la pantalla
-    
-*/
+/* height: 50vh; view height -> esto representa un 50% de la pantalla*/

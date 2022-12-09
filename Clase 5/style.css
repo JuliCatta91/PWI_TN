@@ -1,0 +1,51 @@
+.container{
+    background-color: lightblue;
+    width: 1750px;
+    height: 1800px;
+
+}
+
+.cubo {
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    border: 2px solid black;
+    margin: 10px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.uno {
+    background-color: #f90;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+.dos {
+    background-color: violet;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Absolute: busca el padre con position relative mas cercano y lo toma como referencia para ubicarse. Termina buscando al body si no tiene otro antes. Es responsive */
+
+.tres {
+    background-color: yellowgreen;
+    position: fixed;
+    top: 10px;
+    left: 400px;
+    z-index: 1; /*Indicarle que tan encima de los elementos*/
+    /* toma de referencia al body para ubicar al elemento en las coordenadas establecidas y deja el elemento fijo por mas que hagas scroll. Numeros enteros, cuanto mas grande mas arriva de los demas */
+    
+}
+
+/* Sticky */
+/* se comporta relative hasta que se hace scroll y se vuelve fixed*/
+
+.cuatro {
+    position: sticky;
+    top: 50px;
+    z-index: 2;
+}

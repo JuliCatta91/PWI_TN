@@ -1,0 +1,65 @@
+
+section {
+    width: 900px;
+    border: 2px solid black;
+}
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background:linear-gradient(rgba(53, 82, 1, 0.5), rgba(47, 80, 63, 0.6)), url(./CSS/imagen.jpg) center no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+    height: 100vh; /*lo que vos visualizas */
+}
+
+h1,p{
+    margin-bottom: 15px;
+    color: white;
+    animation-name: izquierda; /*Movimiento del texto*/
+    animation-duration: 2s;
+}
+
+button {
+    width: 180px;
+    padding: 12px;
+    margin: 20px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px; /*Separa las letras*/
+    background: transparent;
+    color: white;
+}
+
+button:hover{ /*Para cuando pones el mouse arriba*/
+    background-color: red;    
+}
+
+@keyframes izquierda { /*Movimiento del texto*/
+    0%{
+        transform: translateX(520px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1; /*va de 0 a 1 y entre medio hay mas 0.1, 0.2, ettc*/
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    cursor: pointer; /*Manito*/
+} */
